@@ -63,19 +63,39 @@ input {
 .main-container .main {
   width: 75vh;
   height: 80vh;
-  border-bottom: 2px red dashed;
+  /* border-bottom: 2px red dashed; */
 }
 
 .themed-videos {
-  display: inline;
+  width: 75vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .themed-videos img {
-  width: 9vw;
+  width: 12.5vw;
   border-top: palegreen 2px solid;
+  margin-right: 2px;
 }
 
-.footer-menu {
-  border: 2px red dashed;
+footer {
+  /* border: 2px red dashed;
   width: 100vh;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  border: 2px red dashed;
+  width: 75vw;
+  height: 7vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer img {
+  border-radius: 6rem;
+  width: 18vh;
+  justify-content: space-evenly;
 }
