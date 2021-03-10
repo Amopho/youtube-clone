@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   background-color: black;
+  font-size: 14px;
 }
 
 body {
@@ -15,7 +16,15 @@ body {
 .top-menu {
   border: 2px red dashed;
   width: 100vw;
-  height: 10vw;
+  height: 6vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.top-menu li {
+  list-style: none;
+  display: inline;
 }
 
 .logo {
