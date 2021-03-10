@@ -79,7 +79,7 @@ input {
   margin-right: 2px;
 }
 
-footer {
+.footer {
   /* border: 2px red dashed;
   width: 100vh;
   height: 15vh;
@@ -89,12 +89,12 @@ footer {
   flex-direction: column; */
   border: 2px red dashed;
   width: 75vw;
-  height: 7vw;
+  height: 25vw;
   display: flex;
   justify-content: space-evenly;
 }
 
-footer img {
+.footer img {
   border-radius: 6rem;
   width: 18vh;
   justify-content: space-evenly;
