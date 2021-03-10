@@ -18,8 +18,15 @@ body {
   height: 10vw;
 }
 
+.logo {
+  position: flex;
+}
+
 .logo img {
+  position: flex;
+  justify-content: flex-end;
   width: 10vh;
+  align-self: flex-end;
 }
 
 .main-container .main {
